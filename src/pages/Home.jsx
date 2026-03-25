@@ -6,7 +6,7 @@ export default function Home() {
       <h1 className="text-3xl font-bold">Home</h1>
 
       <Link
-        to="/nazifa"
+        to="/nazifa1"
         className="px-6 py-3 bg-blue-500 text-white rounded-lg"
       >
         Profile Nazifa
