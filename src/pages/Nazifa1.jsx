@@ -2,7 +2,7 @@ import foto from "../assets/foto.jpg"
 
 export default function Nazifa() {
   return (
-    <div className="w-full font-sans flex flex-col gap-4">
+    <div className="w-full font-sans flex flex-col gap-4 pt-4 px-4 md:px-8 lg:px-16">
 
       {/* CARD 1 */}
       <div className="bg-white border border-gray-200 rounded-xl overflow-visible">
