@@ -1,8 +1,8 @@
 import foto from "../assets/foto.jpg"
 
-export default function Nazifa() {
+export default function Abdullah() {
   return (
-    <div className="w-full font-sans flex flex-col gap-4 pt-4 px-4 md:px-8 lg:px-16">
+    <div className="w-full font-sans flex flex-col gap-4">
 
       {/* CARD 1 */}
       <div className="bg-white border border-gray-200 rounded-xl overflow-visible">
@@ -12,10 +12,10 @@ export default function Nazifa() {
                         h-20 md:h-28 lg:h-36">
         <h1 className="absolute text-white font-semibold text-3xl top-1/2 transform -translate-y-1/2
                         left-24 md:left-32 lg:left-40">
-            Nazifa Izzati
+            Abdullah Abas Bawazir
         </h1>
         </div>
-
+      
         {/* FOTO overlap */}
         <div className="relative h-10 md:h-14 lg:h-20">
           <img
@@ -27,7 +27,7 @@ export default function Nazifa() {
             style={{ left: "16px" }}
           />
           <div className="absolute top-1/2 transform -translate-y-1/2 left-24 md:left-32 lg:left-40">
-            <p className="text-left text-sm text-gray-500">Yogyakarta</p>
+            <p className="text-left text-sm text-gray-500">Tegal</p>
             <p className="text-sm text-gray-500">T2-A · Information Technology</p>
           </div>
         </div>
@@ -53,7 +53,14 @@ export default function Nazifa() {
         <h2 className="text-base text-left font-semibold mb-2">About Me</h2>
         <p className="text-sm text-left text-gray-500 leading-relaxed
                       pl-3 md:pl-4 lg:pl-5">
-          Hi! I'm Nazifa Izzati, a passionate web developer with a love for creating beautiful and functional websites. I have experience in HTML, CSS, and JavaScript, and I'm always eager to learn new technologies and improve my skills. In my free time, I enjoy exploring new design trends and working on personal projects to enhance my portfolio.
+          Saya adalah mahasiswa yang sedang menempuh pendidikan di bidang TI. 
+        Saya memiliki minat yang besar dalam dunia teknologi, khususnya dalam pengembangan 
+        website dan aplikasi. Saat ini saya sedang mempelajari ReactJS sebagai bagian dari 
+        tugas kuliah dan juga untuk meningkatkan kemampuan saya dalam membuat aplikasi modern. 
+        Saya senang mencoba hal-hal baru, belajar mandiri, serta mengembangkan keterampilan 
+        di bidang pemrograman. Selain itu, saya juga tertarik pada desain antarmuka yang 
+        menarik dan mudah digunakan. Ke depannya, saya berharap dapat menjadi seorang 
+        developer yang profesional dan mampu menciptakan aplikasi yang bermanfaat bagi banyak orang.
         </p>
       </div>
 

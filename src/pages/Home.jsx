@@ -13,16 +13,16 @@ export default function Home() {
       </Link>
 
       <Link
-        to="/person1"
+        to="/abdullah"
         className="px-6 py-3 bg-green-500 text-white rounded-lg"
       >
-        Profile Person1
+        Profile Abdullah
       </Link>
       <Link
-        to="/person2"
+        to="/ikhsan"
         className="px-6 py-3 bg-green-500 text-white rounded-lg"
       >
-        Profile Person2
+        Profile Ikhsan
       </Link>
     </div>
   )
