@@ -1,4 +1,4 @@
-import foto from "../assets/foto.jpg"
+import foto from "../assets/abdullah.jpeg"
 
 export default function Abdullah() {
   return (
