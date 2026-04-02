@@ -1,8 +1,7 @@
-import foto from "../assets/foto.jpg"
-
-export default function Nazifa() {
+import foto from "../assets/ikhsan.jpeg"
+export default function ikhsan() {
   return (
-    <div className="w-full font-sans flex flex-col gap-4 pt-4 px-4 md:px-8 lg:px-16">
+    <div className="w-full font-sans flex flex-col gap-4">
 
       {/* CARD 1 */}
       <div className="bg-white border border-gray-200 rounded-xl overflow-visible">
@@ -12,7 +11,7 @@ export default function Nazifa() {
                         h-20 md:h-28 lg:h-36">
         <h1 className="absolute text-white font-semibold text-3xl top-1/2 transform -translate-y-1/2
                         left-24 md:left-32 lg:left-40">
-            Nazifa Izzati
+            m. ikhsan panusunan nasution
         </h1>
         </div>
 
@@ -27,8 +26,8 @@ export default function Nazifa() {
             style={{ left: "16px" }}
           />
           <div className="absolute top-1/2 transform -translate-y-1/2 left-24 md:left-32 lg:left-40">
-            <p className="text-left text-sm text-gray-500">Yogyakarta</p>
-            <p className="text-sm text-gray-500">T2-A · Information Technology</p>
+            <p className="text-left text-sm text-gray-500">medan</p>
+            <p className="text-sm text-gray-500">TI-A · Information Technology</p>
           </div>
         </div>
 
@@ -53,10 +52,9 @@ export default function Nazifa() {
         <h2 className="text-base text-left font-semibold mb-2">About Me</h2>
         <p className="text-sm text-left text-gray-500 leading-relaxed
                       pl-3 md:pl-4 lg:pl-5">
-          Hi! I'm Nazifa Izzati, a passionate web developer with a love for creating beautiful and functional websites. I have experience in HTML, CSS, and JavaScript, and I'm always eager to learn new technologies and improve my skills. In my free time, I enjoy exploring new design trends and working on personal projects to enhance my portfolio.
+          Hi, im ikhsan, first year student in information Technology
         </p>
       </div>
-
     </div>
   )
 }
